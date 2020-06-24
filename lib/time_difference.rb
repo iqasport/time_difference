@@ -95,5 +95,4 @@ class TimeDifference
   def in_component(component)
     (@time_diff / 1.send(component)).round(2)
   end
-
 end
